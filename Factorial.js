@@ -1,7 +1,9 @@
-let count = 1;
-while(count < 1000){
-	if(count%5==0){
-		console.log(count)
-	}
-	count++
+let number = 5;
+let count = number;
+let factor = 1;
+while(count!=0){
+	factor *=count;
+	count--;
+		
 }
+console.log(factor)
